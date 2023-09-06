@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azubi Africa</title>
+    <script src="./icons/feathericons.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+</head>
+<body>
+    
+    <!-- Main Header  -->
+
+    <div class="header">
+        <div class="container">
+            <div class="top">
+                <img src="./assets/azubi_logo.png" alt="azubi_logo">
+                <section class="laptops">
+                    <ul class="forlaptops">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </section>
+                <div class="nav-menu">
+                    <i data-feather="menu" id="overlay" onclick="on()"></i>
+                </div>
+            </div>
+
+            <!-- The Overlay Section -->
+
+            <div id="menuOverlay">
+                <div class="container">
+                    <div id="overlayNav">
+                        <nav>
+                            <ul class="forphones">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                            <div class="nav-close">
+                                <i data-feather="x" id="closeBtn" onclick="off()"></i>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <script>
+        feather.replace();
+    
+        function on() {
+            document.getElementById("menuOverlay").style.display = "block";
+        }
+    
+        function off() {
+            document.getElementById("menuOverlay").style.display = "none";
+        }
+    </script>
+    
+</body>
+</html>

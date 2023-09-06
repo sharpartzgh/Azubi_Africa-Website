@@ -1,0 +1,68 @@
+/* The Header Section */
+.header{
+    margin: 0 30px auto;
+}
+.header .container{
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
+ul a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+    font-family: 'Candara', sans-serif;
+}
+section li:nth-child(3){
+    border: 1px solid #000;
+    width: 130px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px;
+}
+/* turning off the nav list for mobile */
+@media(max-width: 899px){
+section ul{
+        display: none;
+    }
+    #menuOverlay{
+        display: none;
+    }
+   
+}
+
+@media(min-width:540px) and (max-width:899px){
+    .top img{
+        width: 250px;
+    }
+}
+
+/* turning off the menu icon for desktop */
+@media(min-width: 900px){
+    .nav-menu{
+        display: none;
+    } 
+    ul a{
+        font-size: 23px;
+    }
+    #menuOverlay{
+        display: none;
+    }
+
+    .top img{
+        width: 230px;
+    }
+}
