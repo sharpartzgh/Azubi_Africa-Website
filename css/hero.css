@@ -1,0 +1,67 @@
+.heroimagecontainer{
+    background-image: url(../assets/Rectangle2.png);
+    height: 400px;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/* Text styles */
+.text{
+    background: rgba(255, 255, 255, 0.76);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 30px 20px;
+    font-family: 'Roboto';
+    text-align: center;
+}
+h1{
+    font-size: 16px;
+    font-weight:bolder;
+    color: #2E5180;
+}
+
+p{
+    font-size: 14px;
+    line-height: normal;
+    margin-top: 10px;
+    padding: 0 ;
+    line-height: 1.5;
+}
+
+@media(max-width:899px) and (min-width: 540px){
+.heroimagecontainer{
+    background-image: url(../assets//hero.png);
+    background-size: contain;
+    height: 400px;
+}
+h1{
+    font-size: 25px;
+    font-weight:bolder;
+}
+
+p{
+    font-size: 20px;
+}
+
+}
+@media(min-width:900px){
+    .heroimagecontainer{
+        background-image: url(../assets//hero2.png);
+        background-size: cover;
+        height: 710px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 25px;
+    }
+}
+.hero .container{
+    margin-top: 20px;
+}
+
+

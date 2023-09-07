@@ -1,5 +1,5 @@
 /* The Header Section */
-.header{
+.header .top{
     margin: 0 30px auto;
 }
 .header .container{
@@ -33,6 +33,7 @@ section li:nth-child(3){
     border-radius: 25px;
     padding: 10px;
 }
+
 /* turning off the nav list for mobile */
 @media(max-width: 899px){
 section ul{
