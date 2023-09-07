@@ -60,11 +60,17 @@ p{
     background-size: contain;
     height: 400px;
 }
+#horizontal {
+    width: 50%;
+    display: inline-block;
+    }
 h1{
     font-size: 25px;
     font-weight:bolder;
 }
-
+#break{
+    display: none;
+}
 p{
     font-size: 20px;
 }
@@ -86,7 +92,24 @@ p{
     .text2 > p{
         padding: 20px 120px;
     }
+    #horizontal {
+        width: 30%;
+        display: inline-block;
+        }
 }
 .hero .container{
     margin-top: 20px;
+}
+
+
+/* Main Section Styling */
+#Color{
+    color: #2E5180;
+}
+
+#horizontal {
+    width: 30%;
+    display: inline-block;
+    align-items: center;
+    padding-top: 20px;
 }
