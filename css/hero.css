@@ -113,3 +113,94 @@ p{
     align-items: center;
     padding-top: 20px;
 }
+
+/*Learning Partners Styling*/
+.main2{
+    margin: 0 auto;
+}
+.partners{
+    padding: 30px 20px;
+}
+.image img{
+    object-fit: cover;
+}
+.partners h2{
+    color: #2E5180;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.partners a{
+    text-decoration: none;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 15px;
+}
+
+#btn{
+    width: 150px;
+    text-align: center;
+    border-radius: 25px;
+    background: #2E5180;
+    padding: 10px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.partners .image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#fonT{
+    text-align: center;
+}
+#fonT p{
+    margin: auto 35px;
+}
+
+/* TTablets */
+@media(max-width:899px) and (min-width: 600px){
+   
+    .partners h2{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    
+    .partners p{
+        font-size: 20px;
+    }
+    #fonT p{
+        margin: auto 87px;
+    }
+    
+    }
+    
+    /* laptops */
+    @media(min-width:900px){
+    
+        .partners h2{
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        
+        .partners p{
+            font-size: 30px;
+            line-height: 1.2;
+        }
+
+        .partners{
+            display: flex;
+            justify-content: space-between;
+            gap: 32px;
+        }
+        #fonT p{
+            margin: auto 20px;
+        }
+        #break{
+            display: none;
+        }
+    }
+    
