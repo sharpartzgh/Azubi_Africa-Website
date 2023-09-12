@@ -35,9 +35,7 @@
     #a, #b{
        margin-left: 255px;
     }
-/* #socials{
-        justify-content: center;
-     } */
+
 }
 @media(min-width:900px){
    .container3 .item{
