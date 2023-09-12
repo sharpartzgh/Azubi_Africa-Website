@@ -97,6 +97,12 @@ button a{
             gap: 30px;
             width: 1200px;
             margin: 0 auto;
+            padding-bottom: 40px;
+        }
+        .contactUs .container2{
+            position: relative;
+            z-index: 1;
+            margin-top: 80px;
         }
 
         .contactUs .contact p:nth-child(2){

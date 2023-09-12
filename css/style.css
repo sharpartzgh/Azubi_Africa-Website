@@ -40,6 +40,53 @@ nav li:nth-child(3){
     right: 0;
 }
 
-/* .container{
-    margin: 0 auto;
-} */
+/* my social media handles */
+
+#github, #linkedin, a{
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+#github{
+    position: absolute;
+    top: 600px;
+    bottom: 0;
+    left: 0;
+    right: 50%;
+}
+#linkedin{
+    position: absolute;
+    top: 600px;
+    bottom: 0;
+    left: 32%;
+    right: 0;
+}
+
+@media(max-width:899px) and (min-width: 600px){
+    .forphones a{
+        font-size: 30px;
+    }
+    nav li:nth-child(3){
+        width: 25%;
+    }
+    #closeBtn{
+        top: 26px;
+        left: 90%;
+        width: 50px;
+        height: 90px;
+    }
+    #github, #linkedin, a{
+        top: 1000px;
+        font-size: 30px;
+    }
+    #git, #hub{
+        width: 20%;
+        height: 50px;
+    }
+}
