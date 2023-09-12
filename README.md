@@ -7,7 +7,7 @@ This is a personal project. Building Azubi Africa website landing page (The Home
 - Usage
 
 ## 🚀 Live Demo 
--   [Live Demo](https://sharpartzgh.github.io/Project-C4-Group3/)
+-   [Live Demo](https://sharpartzgh.github.io/Azubi_Africa-Website/)
 
 ## Installation
 
@@ -30,6 +30,6 @@ If you think i tried on this project, kindly give a ⭐️.
 
 👤 **Frederick Asiamah**
 
-- GitHub: https://github.com/sharpartzgh
-- LinkedIn: https://www.linkedin.com/in/frederick-asiamah/
+- Github: [Sharpartzgh](https://github.com/sharpartzgh)
+- LinkedIn: [Frederick-Asiamah](https://www.linkedin.com/in/frederick-asiamah/)
 
