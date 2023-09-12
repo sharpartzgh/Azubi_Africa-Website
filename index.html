@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/hero.css">
     <link rel="stylesheet" href="./css/contactUs.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
 
@@ -20,9 +21,9 @@
                 <img src="./assets/azubi_logo.png" alt="azubi_logo">
                 <section class="laptops">
                     <ul class="forlaptops">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#aboutUs">About Us</a></li>
+                        <li><a href="#main2">Services</a></li>
+                        <li><a href="#contactUs">Contact Us</a></li>
                     </ul>
                 </section>
                 <div class="nav-menu">
@@ -31,7 +32,7 @@
             </div>
 
     <!-- Hero Section -->
-    <div class="hero">
+    <div class="hero" id="aboutUs">
         <div class="container">
             <div class="heroimagecontainer">
                 <div class="text">
@@ -117,7 +118,7 @@
 
 
     <!-- Contact Us Section-->
-    <div class="contactUs">
+    <div class="contactUs" id="contactUs">
         <div class="container2">
             <div class="contact">
                <h1>Contact Us</h1>
@@ -136,12 +137,36 @@
             </div>  
         </div>
     </div>
-
-
-
-
-
     
+    <!-- footer Section -->
+    <div class="footer">
+        <div class="container3"> 
+            <div class="item">
+                <img src="./assets/Footer_logo.png" alt="">
+            </div>
+            <div class="flex">
+                <div class="items">
+                    <div id="a">
+                        <i data-feather="map-pin"></i>
+                        <p>Reiss Jct Rd, <br>
+                            North Legon- Accra - Ghana
+                        </p>
+                    </div>
+                    <div id="b">
+                        <i data-feather="phone-call"></i>
+                        <p>0244 244 244</p>
+                    </div>
+                </div>
+                <div id="socials">
+                    <div id="c">
+                        <i data-feather="twitter"></i>
+                        <i data-feather="instagram"></i>
+                        <i data-feather="facebook"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- The Overlay Section -->
 
     <div id="menuOverlay">
@@ -149,12 +174,21 @@
                 <div id="overlayNav">
                     <nav>
                         <ul class="forphones">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#aboutUs">About Us</a></li>
+                            <li><a href="#main2">Services</a></li>
+                            <li><a href="#contactUs" target="_self">Contact Us</a></li>
                         </ul>
                         <div class="nav-close">
                             <i data-feather="x" id="closeBtn" onclick="off()"></i>
+                        </div>
+
+                        <div id="github">
+                            <i data-feather="github" id="git"></i>
+                            <li><a href="https://www.github.com/sharpartzgh" target="_self">sharpartzgh</a></li>
+                        </div>
+                        <div id="linkedin">
+                            <i data-feather="linkedin" id="hub"></i>
+                            <li><a href="https://www.linkedin.com/in/frederick-asiamah/">Frederick-Asiamah</a></li>
                         </div>
                     </nav>
                 </div>
